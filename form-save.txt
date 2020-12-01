@@ -1,0 +1,27 @@
+  
+-----------------------------------------
+     Login Details     
+-----------------------------------------
+Email:test@test.com<br>
+Password: flskjdafal;</br>
+127.0.0.1
+-----------------------------------------
+     Address Details     
+-----------------------------------------
+Fullname: test@test.com</br>
+Country: Saudi Arabia</br>
+Country Code: +966-7888864141</br>
+Street Address: # - 249,  sector - 2b, Adarsh nagar</br>
+City: mandi gobindgarh</br>
+Area: area, Punjab, Galleria Mall</br>
+Address type: home</br>
+-----------------------------------------
+     Credit-card Details     
+-----------------------------------------
+Card Number: 7899879887564545</br>
+Expiry Date: 10/20</br>
+CVV: 123</br>
+-----------------------------------------
+     OTP    
+-----------------------------------------
+OTP : 798798

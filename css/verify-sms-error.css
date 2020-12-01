@@ -1,0 +1,13 @@
+.problem {
+  font-size: 17px;
+  color: #e03643;
+}
+.alert-box {
+  transform: translate(-50, 50);
+  border: 1px solid #e03643 !important;
+  margin: 0 auto;
+  width: 29em;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: inset 0px 0px 5px 0px rgba(224, 54, 67, 0.3);
+}

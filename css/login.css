@@ -1,0 +1,275 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+  line-height: 19px;
+  color: #111;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  transform: translate(0, -10%);
+  z-index: 1;
+  overflow: visible;
+  background: rgba(255, 255, 255, 0.2) url("/img/loader-am.gif") no-repeat
+    center center;
+}
+/* .container {
+  margin: 0% auto;
+} */
+
+.logo {
+  display: block;
+  width: auto;
+  margin: -5% auto -1% auto !important;
+  transform: translate(-0.8em, 0);
+}
+
+@media (max-width: 767px) {
+  .logo {
+    margin: -10% auto -2% auto !important;
+  }
+}
+.login-form {
+  transform: translate(-50, 50);
+  border: 1px solid #dddddd !important;
+  margin: 0 auto;
+  width: 29em;
+  height: auto;
+  border-radius: 3px;
+}
+.login-box {
+  padding: 23px 26px;
+}
+.signin-text {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0px 0px 6px 0px;
+  padding: 0px 0px 6px;
+}
+.label-email {
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  padding: 0px 0px 2px 2px;
+  margin: 5px 0px;
+  overflow: hidden;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+input[type="button"] {
+  padding: 5px 0px;
+  width: 100%;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+textarea:focus {
+  box-shadow: 0 0px 8px #e77600;
+  /* box-shadow: 0 0px 8px #32c904; */
+  /* padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px; */
+  border: 1px solid #e77600;
+}
+.input-continue {
+  background-image: linear-gradient(to bottom, #ecd392, #f0c14b);
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  cursor: pointer;
+  border-style: solid;
+  /* background: #e7e9ec; */
+  border-radius: 3px;
+  /* border-color: #adb1b8 #a2a6ac #8d9096; */
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+  font-weight: 530;
+}
+.input-continue:hover {
+  background-image: linear-gradient(to bottom, #eec55e, #ebb93b);
+}
+.term-text {
+  font-size: 12px;
+}
+.terms-text a {
+  text-decoration: none;
+}
+.needhelp-text {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: 12.5px;
+  /* color: #0505c5f5; */
+}
+.needhelp-text:hover {
+  text-decoration: underline;
+  color: #d30303;
+}
+.content {
+  padding: 0px 0px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  margin-left: 12px;
+  transition: max-height 0s ease-out;
+}
+.content a {
+  text-decoration: none;
+  padding: 5px 0;
+  font-size: 12.5px;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: #d30303;
+}
+.bar1 {
+  /* transform: translate(-50, 50); */
+  margin: 0 auto;
+  width: 29em;
+  height: auto;
+}
+
+.hr-text {
+  margin-top: 30px;
+  line-height: 1.2em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.8;
+}
+.hr-text:before {
+  content: "";
+  /* // use the linear-gradient for the fading effect
+  // use a solid background color for a solid bar */
+  background: linear-gradient(to right, #e9e9e9, #e9e9e9, #e9e9e9);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 0.5px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  /* // this is really the only tricky part, you need to specify the background color of the container element... */
+  color: #2e2e2d;
+  background-color: #fcfcfa;
+}
+.create-account {
+  background: linear-gradient(to bottom, #f8f8f8, #e5e5e6);
+}
+.create-account:hover {
+  background: linear-gradient(to bottom, #e5e5e6, #d1d1d3);
+}
+.bar2 {
+  margin: 0 auto;
+  width: 42em;
+  height: auto;
+}
+.hr-text2 {
+  margin-top: 30px;
+  line-height: 1.5em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: rgb(129, 127, 127);
+  text-align: center;
+  height: 2.5em;
+  opacity: 0.6;
+}
+.hr-text2:before {
+  content: " ";
+  /* // use the linear-gradient for the fading effect
+  // use a solid background color for a solid bar */
+  background: linear-gradient(to right, transparent, #d3dce2, transparent);
+  position: absolute;
+  left: 0;
+  top: -50%;
+  width: 100%;
+  height: 2px;
+}
+.hr-text2:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+
+  padding: 0 0.5em;
+  line-height: 5em;
+  /* // this is really the only tricky part, you need to specify the background color of the container element... */
+  color: #2e2e2d;
+  background-color: #fcfcfa;
+}
+.btm-link-wrap {
+  margin-top: -10%;
+}
+.link-btm {
+  text-decoration: none;
+  font-size: 12px;
+}
+.link-btm:hover {
+  color: #d30303 !important;
+  text-decoration: underline;
+}
+.footer-text {
+  color: rgb(104, 102, 102);
+  margin-left: 30px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+.email-text {
+  padding-left: 10px !important;
+}
+.password-text {
+  padding-left: 10px !important;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.m-top {
+  margin-top: -1em;
+}
+.m-top2 {
+  margin-top: -1.5em;
+}
+.m-top3 {
+  margin-top: -2em;
+}
+.m-top4 {
+  margin-top: -2.5em;
+}
+.m-top5 {
+  margin-top: -3em;
+}
+
+.login-top {
+  margin-top: 3em;
+}
